@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    border:border-box;
+}
+
+.one{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(245, 250, 250);
+}
+
+.one p{
+    font-size: 30px;
+    text-align: center;
+    padding: 40px;
+}
+/* Parent Bar (Black strip) */
+.nav-bar {
+    height: 100px;
+    background-color: black;
+    color: white;
+    
+    /* Ye 3 lines add karein */
+    display: flex;             /* 1. Flexbox on */
+    align-items: center;       /* 3. Upar-niche se center karo */
+    padding-right: 20px;       /* Right side se thoda gap */
+}
+
+.navlogo {
+    height: 100px;
+    width: 100px;
+    /* Yahan se width hata bhi sakte hain agar logo size fixed hai */
+}
+
+.logo img {
+    height: 90px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-top: 5px;
+    /* margin-right: auto;  <-- Is line ko HATA DEIN, iski zarurat nahi ab */
+}
+.two p{
+    margin-left: 110px;
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:  400px;
+    list-style: none;
+   
+}
+.nav li a{
+    margin: 20px;
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+     
+}
+.im{
+    background-image: url(fruits-garden1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec{
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px 50px;
+}
+.sec h1{
+    font-size: 100px;
+    color: white;
+}
+.sec p{
+    color: white;
+    font-size: 50px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
